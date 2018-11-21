@@ -1,7 +1,13 @@
 import math
 import re
 import sys 
+import os
+clear = lambda: os.system('cls')
+
+print("Welkom bij D-Cal rewritten. Een programma gemaakt door Mohamed El Yousfi")
+print(" ")
 while True:
+    print("=============================")
     term1 = input("Typ de eerste term van de vergelijking in. ")
     a = term1.split("x²")[0]
 
@@ -51,8 +57,9 @@ while True:
     uitkomst = b_pow - rest
     uitkomst_sqrt = math.sqrt(uitkomst)
     #print(rest)
+    clear()
     print("=============================")
     print(f"D = {uitkomst}")
     print("=============================")
     print(f"√D = {uitkomst_sqrt}")
-
+    
