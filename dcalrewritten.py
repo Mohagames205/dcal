@@ -21,19 +21,15 @@ if term3.isalpha() == True:
 
 c = term3
 
-if term1.isalpha() == True or term2.isalpha() == True or term3.isalpha() == True:
-    print("We kunnen nog niet rekenen met letters.")
-    sys.exit()
 
-
-
-
+#Dit is voor debugging
+"""
 print(a)
 print(b)
 print(c)
 vergelijking = term1+term2+term3
 print(vergelijking)
-
+"""
 a = int(a)
 b = int(b)
 c = int(c)
@@ -42,6 +38,10 @@ b_pow = pow(b, 2)
 print(b_pow)
 rest = 4 * a * c
 uitkomst = b_pow - rest
+uitkomst_sqrt = math.sqrt(uitkomst)
 print(rest)
-print (uitkomst)
+print("=============================")
+print(f"D = {uitkomst}")
+print("=============================")
+print(f"√D = {uitkomst_sqrt}")
 
