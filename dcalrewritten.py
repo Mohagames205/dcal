@@ -2,7 +2,9 @@ import math
 import re
 import sys 
 import os
-clear = lambda: os.system('cls')
+
+def clear():
+    os.system("cls")
 
 print("Welkom bij D-Cal rewritten. Een programma gemaakt door Mohamed El Yousfi")
 print(" ")
