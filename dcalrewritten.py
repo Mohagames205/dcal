@@ -12,7 +12,7 @@ while True:
     print("=============================")
     term1 = input("Typ de eerste term van de vergelijking in. ")
     a = term1.split("x²")[0]
-
+    
     if term1.lower() == "exit":
         sys.exit()
 
@@ -22,7 +22,7 @@ while True:
 
     term2 = input("Typ de tweede term van de vergelijking in. ")
     b = term2.split("x")[0]
-
+    
     if term1.lower() == "exit":
         sys.exit()
 
